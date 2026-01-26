@@ -1,0 +1,24 @@
+Flight Computer
+1. Arduino Nano 33 BLE Sense Rev2 – main flight computer, lightweight, 3.3 V-native, includes IMU, barometer, temp, and humidity sensors
+
+Built-In Sensors
+2. BMI270 (IMU) – measures acceleration and rotation for boost, coast, and landing phases
+3. BMM150 (Magnetometer) – measures orientation and yaw for stability analysis
+4. LPS22HB Barometric Pressure Sensor – built-in, provides accurate altitude measurement
+5. HS3003 Temperature & Humidity Sensor – built-in, environmental data for flight and atmospheric analysis
+
+External Sensors
+6. Arduino Pro 4G GNSS Module – GPS/GLONASS positioning for recovery, horizontal drift, and altitude verification; UART, 3.3 V logic
+7. MQ-135 Gas Sensor – measures air quality (CO₂, NH₃, NOx, smoke, VOCs); analog input or digital output
+
+Data Logging
+8. Arduino Micro SD Card Module (SPI) – onboard data logging essential for flights where telemetry may fail
+9. 128 GB Micro SD Card – sufficient storage for high frequency sensor logging 
+
+Power
+10. 3.7 V LiPo Battery (500–850 mAh) – supplies stable, high-current power to Arduino and sensors
+11. 5 V Boost Converter – maintains stable voltage during current spikes to prevent brownouts
+12. Decoupling Capacitors (0.1 µF + 100 µF) – smooths vibration-induced power noise, protects sensors and SD card
+
+Wiring
+13. Jumper Wires / Soldered Connections – ensures reliable connections, vibration-resistant
