@@ -17,8 +17,6 @@ Data Logging
 
 Power
 10. 3.7 V LiPo Battery (500–850 mAh) – supplies stable, high-current power to Arduino and sensors
-11. 5 V Boost Converter – maintains stable voltage during current spikes to prevent brownouts
-12. Decoupling Capacitors (0.1 µF + 100 µF) – smooths vibration-induced power noise, protects sensors and SD card
 
 Wiring
-13. Jumper Wires / Soldered Connections – ensures reliable connections, vibration-resistant
+11. Jumper Wires / Soldered Connections – ensures reliable connections, vibration-resistant
